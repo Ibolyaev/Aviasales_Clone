@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  Aviasales
+
+  Created by Ronin on 08/06/2018.
+  Copyright © 2018 Ronin. All rights reserved.
+*/
+// Main VC
+"tickets_tab" = "Tickets";
+"price_map_tab" = "Map price";
+"favorites_tab" = "Favorites";
+"origin_button_title" = "Origin";
+"arrival_button_title" = "Destination";
+"find_button" = "Find";
+"main_vc_title" = "Search for tickets";
+
+// PlaceTableViewController
+"cities" = "Cities";
+"airports" = "Airports";
+
+//Tickets VC
+"tickets_title" = "Tickets";
+"notification_title" = "Dont forget to buy your ticket";
+"add_to_favorite" = "Add to favorites";
+"remove_from_favorite" = "Remove from favorites";
+"notify_me" = "Notify me";
+"open_ticket" = "Open ticket";
+
+// Alert
+"error" = "Error";
+"tickets_not_found" = "In this direction tickets are not found";
+"close" = "Close";
+"not_set_place_arrival_or_departure" = "It is necessary to indicate the place of departure and the place of arrival";
+"actions_with_tickets" = "Actions with tickets";
+"actions_with_tickets_describe" = "What do I need to do with the selected ticket?";
+"not_determine_current_city" = "Could not determine the current city!";
+
+//Ticket VC
+"ticket_title" = "Ticket";

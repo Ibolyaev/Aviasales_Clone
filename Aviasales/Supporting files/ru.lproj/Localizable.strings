@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Aviasales
+
+  Created by Ronin on 08/06/2018.
+  Copyright © 2018 Ronin. All rights reserved.
+*/
+// Alerts
+
+"error" = "Ошибка";
+"tickets_not_found" = "По данному направлению билетов не найдено";
+"close" = "Закрыть";
+"not_set_place_arrival_or_departure" = "Необходимо указать место отправления и место прибытия";
+"actions_with_tickets" = "Действия с билетом";
+"actions_with_tickets_describe" = "Что необходимо сделать с выбранным билетом?";
+"not_determine_current_city" = "Не удалось определить текущий город!";
+
+"cities" = "Города";
+"airports" = "Аэропорты";
