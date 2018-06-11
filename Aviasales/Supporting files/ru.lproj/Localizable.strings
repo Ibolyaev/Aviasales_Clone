@@ -7,13 +7,35 @@
 */
 // Alerts
 
-"error" = "Ошибка";
-"tickets_not_found" = "По данному направлению билетов не найдено";
-"close" = "Закрыть";
-"not_set_place_arrival_or_departure" = "Необходимо указать место отправления и место прибытия";
-"actions_with_tickets" = "Действия с билетом";
-"actions_with_tickets_describe" = "Что необходимо сделать с выбранным билетом?";
-"not_determine_current_city" = "Не удалось определить текущий город!";
+// Main VC
+"tickets_tab" = "Билеты";
+"price_map_tab" = "Карта цен";
+"favorites_tab" = "Избранное";
+"origin_button_title" = "Отправление";
+"arrival_button_title" = "Назначение";
+"find_button" = "Найти";
+"main_vc_title" = "Найти билеты";
 
+// PlaceTableViewController
 "cities" = "Города";
 "airports" = "Аэропорты";
+
+//Tickets VC
+"tickets_title" = "Билеты";
+"notification_title" = "Не забудьте купить ваш билет";
+"add_to_favorite" = "Добавить в избранное";
+"remove_from_favorite" = "Убрать из избранного";
+"notify_me" = "Напомнить мне";
+"open_ticket" = "Открыть билет";
+
+// Alert
+"error" = "Ошибка";
+"tickets_not_found" = "Билеты не найдены";
+"close" = "Закрыть";
+"not_set_place_arrival_or_departure" = "Нужно указать отправление и назначение";
+"actions_with_tickets" = "Действия с билетом";
+"actions_with_tickets_describe" = "Что сделать с билетом?";
+"not_determine_current_city" = "Не удалось определить текущий город!";
+
+//Ticket VC
+"ticket_title" = "Билет";
