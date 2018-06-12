@@ -65,8 +65,9 @@ NSArray *searchList;
     {
         NSPredicate *predicate =
         [NSPredicate predicateWithFormat:@"SELF.name CONTAINS[cd] %@", searchController.searchBar.text];
-        
         searchList = [currentList filteredArrayUsingPredicate: predicate];
+        [self.tableView reloadData];
+    } else {
         [self.tableView reloadData];
     }
 }

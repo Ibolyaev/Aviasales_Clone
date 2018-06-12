@@ -52,14 +52,17 @@
             for (NSDictionary *dict in array) {
                 [arrayOfObjects addObject:[[Country alloc] initWithDictionary:dict]];
             }
+            break;
         case DataSourceTypeCity:
             for (NSDictionary *dict in array) {
                 [arrayOfObjects addObject:[[City alloc] initWithDictionary:dict]];
             }
+            break;
         case DataSourceTypeAirport:
             for (NSDictionary *dict in array) {
                 [arrayOfObjects addObject:[[Airport alloc] initWithDictionary:dict]];
             }
+            break;
     }
     return arrayOfObjects;
 }
@@ -69,7 +72,7 @@
         NSArray * countriesJsonArray  = [self arrayFromFileName: @"countries" ofType: @"json"] ;
         _countriesArray  = [self createObjectsFromArray:countriesJsonArray withType: DataSourceTypeCountry];
         NSArray * citiesJsonArray = [self arrayFromFileName: @"cities" ofType: @"json"] ;
-        _citiesArray  = [self createObjectsFromArray:citiesJsonArray withType: DataSourceTypeCity];
+        _citiesArray  = [self createObjectsFromArray:citiesJsonArray withType: DataSourceTypeCity];        
         NSArray * airportsJsonArray = [self arrayFromFileName: @"airports" ofType: @"json"] ;
         _airportsArray  = [self createObjectsFromArray:airportsJsonArray withType: DataSourceTypeAirport];
         dispatch_async( dispatch_get_main_queue(), ^ {[[NSNotificationCenter defaultCenter] postNotificationName:kDataManagerLoadDataDidComplete object: nil];
